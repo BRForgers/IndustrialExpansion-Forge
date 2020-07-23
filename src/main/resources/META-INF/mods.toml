@@ -1,0 +1,28 @@
+# Make sure this is set to "kotlinforforge"
+modLoader="kotlinforforge"
+# Make sure this is set to the appropriate version range
+loaderVersion="[1.3,)" # Require at least 1.3.x
+
+[[mods]]
+modId="industrialexpansion"
+version="${file.jarVersion}"
+displayName="Industrial Expansion"
+displayURL="brforgers.com.br"
+logoFile="icon.png"
+credits="BRForgers Team"
+authors="armein1"
+description='''
+IC2 Recipes for Thermal Expansion
+'''
+[[dependencies.industrialexpansion]]
+    modId="forge"
+    mandatory=true
+    versionRange="[32.0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.industrialexpansion]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.1]"
+    ordering="NONE"
+    side="BOTH"
