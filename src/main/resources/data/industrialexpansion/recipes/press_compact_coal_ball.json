@@ -1,0 +1,11 @@
+{
+  "type": "thermal:press",
+  "ingredient": {
+    "item": "industrialexpansion:coal_ball"
+  },
+  "result": [
+    {
+      "item": "industrialexpansion:compact_coal_ball"
+    }
+  ]
+}

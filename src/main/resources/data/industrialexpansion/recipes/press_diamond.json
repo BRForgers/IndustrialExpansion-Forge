@@ -1,0 +1,11 @@
+{
+  "type": "thermal:press",
+  "ingredient": {
+    "item": "industrialexpansion:coal_chunk"
+  },
+  "result": [
+    {
+      "item": "minecraft:diamond"
+    }
+  ]
+}
